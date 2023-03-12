@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Hostel" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-FO5QIN3I;Initial Catalog=Hostel;Integrated Security=True" SettingsObjectName="HostelStudent.Properties.Settings" SettingsPropertyName="HostelConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.up_sel_getDepartments" Method="up_sel_getDepartments">
+    <ElementType Name="up_sel_getDepartmentsResult">
+      <Column Name="InfoName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.up_sel_getInfoGroup" Method="up_sel_getInfoGroup">
+    <ElementType Name="up_sel_getInfoGroupResult">
+      <Column Name="GroupId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[Group name]" Member="Group_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="[Department name]" Member="Department_name" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="[Curator group]" Member="Curator_group" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="[Tel number]" Member="Tel_number" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.up_sel_getInfoRooms" Method="up_sel_getInfoRooms">
+    <ElementType Name="up_sel_getInfoRoomsResult">
+      <Column Name="RoomId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TypeRoomName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Number" Type="System.String" DbType="VarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="FloorApartment" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NumberBeds" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.up_sel_getTypeRooms" Method="up_sel_getTypeRooms">
+    <ElementType Name="up_sel_getTypeRoomsResult">
+      <Column Name="InfoName" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.up_sel_getUsers" Method="up_sel_getUsers">
+    <ElementType Name="up_sel_getUsersResult">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FullName" Type="System.String" DbType="VarChar(100) NOT NULL" CanBeNull="false" />
+      <Column Name="TelNumber" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+    </ElementType>
+  </Function>
+</Database>
