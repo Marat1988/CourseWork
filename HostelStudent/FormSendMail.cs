@@ -40,7 +40,7 @@ namespace HostelStudent
                         {
                             MessageBox.Show(parameters.Get<string>("@LineAnswer").ToString(), "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
-                        MessageBox.Show("Данные успешно сохранены", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Письмо отправлено!", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
                 catch (Exception ex)

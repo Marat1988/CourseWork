@@ -125,7 +125,6 @@ namespace HostelStudent
             this.Name = "FormAddEdtToRoomStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Заселить, изменить данные студента";
-            this.Load += new System.EventHandler(this.FormAddEdtToRoomStudent_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

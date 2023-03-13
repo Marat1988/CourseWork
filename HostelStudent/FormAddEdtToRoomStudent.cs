@@ -99,9 +99,5 @@ namespace HostelStudent
             return -1;
         }
 
-        private void FormAddEdtToRoomStudent_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
