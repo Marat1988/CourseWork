@@ -35,8 +35,6 @@ namespace HostelStudent
             this.textBoxSubject = new System.Windows.Forms.TextBox();
             this.textBoxMessageBody = new System.Windows.Forms.TextBox();
             this.labelMessageBody = new System.Windows.Forms.Label();
-            this.comboBoxFileExtension = new System.Windows.Forms.ComboBox();
-            this.labelFileExtension = new System.Windows.Forms.Label();
             this.buttonSendMessage = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -90,34 +88,9 @@ namespace HostelStudent
             this.labelMessageBody.TabIndex = 5;
             this.labelMessageBody.Text = "Тело сообщения:";
             // 
-            // comboBoxFileExtension
-            // 
-            this.comboBoxFileExtension.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxFileExtension.FormattingEnabled = true;
-            this.comboBoxFileExtension.Items.AddRange(new object[] {
-            "DOCX",
-            "DOC",
-            "XLSX",
-            "XLS",
-            "PPTX",
-            "PDF"});
-            this.comboBoxFileExtension.Location = new System.Drawing.Point(146, 267);
-            this.comboBoxFileExtension.Name = "comboBoxFileExtension";
-            this.comboBoxFileExtension.Size = new System.Drawing.Size(261, 21);
-            this.comboBoxFileExtension.TabIndex = 6;
-            // 
-            // labelFileExtension
-            // 
-            this.labelFileExtension.AutoSize = true;
-            this.labelFileExtension.Location = new System.Drawing.Point(22, 270);
-            this.labelFileExtension.Name = "labelFileExtension";
-            this.labelFileExtension.Size = new System.Drawing.Size(108, 13);
-            this.labelFileExtension.TabIndex = 7;
-            this.labelFileExtension.Text = "Расширение файла:";
-            // 
             // buttonSendMessage
             // 
-            this.buttonSendMessage.Location = new System.Drawing.Point(25, 313);
+            this.buttonSendMessage.Location = new System.Drawing.Point(32, 268);
             this.buttonSendMessage.Name = "buttonSendMessage";
             this.buttonSendMessage.Size = new System.Drawing.Size(204, 62);
             this.buttonSendMessage.TabIndex = 8;
@@ -129,10 +102,8 @@ namespace HostelStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(452, 407);
+            this.ClientSize = new System.Drawing.Size(452, 352);
             this.Controls.Add(this.buttonSendMessage);
-            this.Controls.Add(this.labelFileExtension);
-            this.Controls.Add(this.comboBoxFileExtension);
             this.Controls.Add(this.labelMessageBody);
             this.Controls.Add(this.textBoxMessageBody);
             this.Controls.Add(this.textBoxSubject);
@@ -155,8 +126,6 @@ namespace HostelStudent
         private System.Windows.Forms.TextBox textBoxSubject;
         private System.Windows.Forms.TextBox textBoxMessageBody;
         private System.Windows.Forms.Label labelMessageBody;
-        private System.Windows.Forms.ComboBox comboBoxFileExtension;
-        private System.Windows.Forms.Label labelFileExtension;
         private System.Windows.Forms.Button buttonSendMessage;
     }
 }

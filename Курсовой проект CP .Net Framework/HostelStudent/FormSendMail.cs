@@ -17,7 +17,6 @@ namespace HostelStudent
         {
             InitializeComponent();
             this.studentId = studentId;
-            comboBoxFileExtension.SelectedIndex = 0;
         }
 
         private void buttonSendMessage_Click(object sender, EventArgs e)
@@ -30,7 +29,7 @@ namespace HostelStudent
                     {
                         DynamicParameters parameters = new DynamicParameters();
                         parameters.Add("@StudentId", studentId);
-                        parameters.Add("@IndexDocumentFormat", comboBoxFileExtension.SelectedIndex + 1);
+                        parameters.Add("@IndexDocumentFormat", 6);
                         parameters.Add("@Address", textBoxAddress.Text);
                         parameters.Add("@MessageSubject", textBoxSubject.Text);
                         parameters.Add("@MessageBoby", textBoxMessageBody.Text);
@@ -40,12 +39,12 @@ namespace HostelStudent
                         {
                             MessageBox.Show(parameters.Get<string>("@LineAnswer").ToString(), "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
                         }
-                        MessageBox.Show("Письмо отправлено!", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Письмо отправлено!", "INFORMATION", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show(ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
             else
@@ -53,5 +52,7 @@ namespace HostelStudent
                 MessageBox.Show("Не соответствие формата e-mail", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
+
+ 
     }
 }
