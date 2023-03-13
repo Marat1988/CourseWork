@@ -1,0 +1,6 @@
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\bin\Debug\DownloadFilePortal.dll
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\bin\Debug\DownloadFilePortal.pdb
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Debug\DownloadFilePortal.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Debug\DownloadFilePortal.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Debug\DownloadFilePortal.dll
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Debug\DownloadFilePortal.pdb

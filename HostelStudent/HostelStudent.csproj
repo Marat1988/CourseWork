@@ -141,6 +141,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="DataClasses1.dbml">
@@ -162,6 +163,51 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\b.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Refresh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hopstarter-Soft-Scraps-Email-Reply.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log-out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-call-to-action-4067647.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\question.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\free-icon-report-3029337.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\students.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cardStudent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xlsx-file.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pdf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docx.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\export.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

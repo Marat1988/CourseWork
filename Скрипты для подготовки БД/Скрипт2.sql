@@ -379,5 +379,55 @@ VALUES (1, 1, '20230101'),
 	   (5, 4, '20230105'),
 	   (6, 5, '20230106'),
 	   (7, 6, '20230107');
-GO
+GO;
+
+
+ALTER PROCEDURE [dbo].[up_sel_sendStudentCardEmail]
+@StudentId INT, @IndexDocumentFormat INT=0, @Address VARCHAR(100), @MessageSubject VARCHAR(50), @MessageBoby VARCHAR(1000), @LineAnswer VARCHAR(1000)='' out
+AS
+SET @LineAnswer=''
+
+DECLARE @URL NVARCHAR(MAX)='http://laptop-fo5qin3i:4863/ReportServer/Pages/ReportViewer.aspx?%2fInformation%2fCardStudent&StudentId='+CAST(@StudentId AS VARCHAR(10)),
+@NameDocument nvarchar(100)='Card student',
+@Path nvarchar(50)='C:\Export\',
+@FileExtension VARCHAR(3)=CASE WHEN @IndexDocumentFormat=1 THEN 'docx'
+						       WHEN @IndexDocumentFormat=2 THEN 'doc'
+						       WHEN @IndexDocumentFormat=3 THEN 'xlsx'
+						       WHEN @IndexDocumentFormat=4 THEN 'xls'
+						       WHEN @IndexDocumentFormat=5 THEN 'pptx'
+						       WHEN @IndexDocumentFormat=6 THEN 'pdf'
+						       ELSE 'pdf'
+						   END, @R BIT
+
+SET @NameDocument = @Path + @NameDocument + '.' + @FileExtension
+IF @LineAnswer=''
+BEGIN
+ SELECT @R=dbo.[CLR_DownloadFilePortal](@URL,@IndexDocumentFormat,@Path)
+ IF @R=1
+ BEGIN
+  EXEC msdb.dbo.sp_send_dbmail
+       -- Созданный нами профиль администратора почтовых рассылок
+	   @profile_name = 'WorkMail',
+       -- Адрес получателя
+	   @recipients=@Address,
+       -- Тема
+	   @subject = @MessageSubject,
+       -- Текст письма
+	   @body = @MessageBoby,
+       --Важность
+	   @importance='HIGH',
+       --Вложения
+	   @file_attachments = @NameDocument
+ END
+ ELSE
+ BEGIN
+  RETURN -1
+  SET @LineAnswer='Ошибка при формировании файла '+@NameDocument
+ END
+END
+ELSE
+BEGIN
+ RETURN -1
+ SET @LineAnswer='Ошибка при формировании файла '+@NameDocument
+END
 

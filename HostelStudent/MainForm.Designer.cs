@@ -30,6 +30,7 @@ namespace HostelStudent
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ToolStripMenuItemAction = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItemAddStudentRoom = new System.Windows.Forms.ToolStripMenuItem();
@@ -87,12 +88,14 @@ namespace HostelStudent
             this.ToolStripMenuItemSendMail,
             this.toolStripMenuItem4,
             this.ToolStripMenuItemExit});
+            this.ToolStripMenuItemAction.Image = global::HostelStudent.Properties.Resources.free_icon_call_to_action_4067647;
             this.ToolStripMenuItemAction.Name = "ToolStripMenuItemAction";
-            this.ToolStripMenuItemAction.Size = new System.Drawing.Size(70, 20);
+            this.ToolStripMenuItemAction.Size = new System.Drawing.Size(86, 20);
             this.ToolStripMenuItemAction.Text = "Действия";
             // 
             // ToolStripMenuItemAddStudentRoom
             // 
+            this.ToolStripMenuItemAddStudentRoom.Image = global::HostelStudent.Properties.Resources.a;
             this.ToolStripMenuItemAddStudentRoom.Name = "ToolStripMenuItemAddStudentRoom";
             this.ToolStripMenuItemAddStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemAddStudentRoom.Text = "Заселить студента в комнату";
@@ -100,6 +103,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemEditStudentRoom
             // 
+            this.ToolStripMenuItemEditStudentRoom.Image = global::HostelStudent.Properties.Resources.c;
             this.ToolStripMenuItemEditStudentRoom.Name = "ToolStripMenuItemEditStudentRoom";
             this.ToolStripMenuItemEditStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemEditStudentRoom.Text = "Изменить данные студента";
@@ -107,6 +111,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemDeleteStudentRoom
             // 
+            this.ToolStripMenuItemDeleteStudentRoom.Image = global::HostelStudent.Properties.Resources.b;
             this.ToolStripMenuItemDeleteStudentRoom.Name = "ToolStripMenuItemDeleteStudentRoom";
             this.ToolStripMenuItemDeleteStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemDeleteStudentRoom.Text = "Выселить студента из комнаты";
@@ -119,6 +124,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemRefreshData
             // 
+            this.ToolStripMenuItemRefreshData.Image = global::HostelStudent.Properties.Resources.Refresh;
             this.ToolStripMenuItemRefreshData.Name = "ToolStripMenuItemRefreshData";
             this.ToolStripMenuItemRefreshData.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemRefreshData.Text = "Обновить данные";
@@ -131,6 +137,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSendMail
             // 
+            this.ToolStripMenuItemSendMail.Image = global::HostelStudent.Properties.Resources.Hopstarter_Soft_Scraps_Email_Reply;
             this.ToolStripMenuItemSendMail.Name = "ToolStripMenuItemSendMail";
             this.ToolStripMenuItemSendMail.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemSendMail.Text = "Отправка карточки студента на e-mail";
@@ -143,6 +150,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemExit
             // 
+            this.ToolStripMenuItemExit.Image = global::HostelStudent.Properties.Resources.log_out;
             this.ToolStripMenuItemExit.Name = "ToolStripMenuItemExit";
             this.ToolStripMenuItemExit.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemExit.Text = "Выход из программы";
@@ -154,12 +162,14 @@ namespace HostelStudent
             this.ToolStripMenuItemShowAllInfo,
             this.ToolStripMenuItemOpenInfoWebPortal,
             this.ToolStripMenuItemOpenCardStudent});
+            this.ToolStripMenuItemHelpInformation.Image = global::HostelStudent.Properties.Resources.question;
             this.ToolStripMenuItemHelpInformation.Name = "ToolStripMenuItemHelpInformation";
-            this.ToolStripMenuItemHelpInformation.Size = new System.Drawing.Size(161, 20);
+            this.ToolStripMenuItemHelpInformation.Size = new System.Drawing.Size(177, 20);
             this.ToolStripMenuItemHelpInformation.Text = "Справочная информация";
             // 
             // ToolStripMenuItemShowAllInfo
             // 
+            this.ToolStripMenuItemShowAllInfo.Image = global::HostelStudent.Properties.Resources.free_icon_report_3029337;
             this.ToolStripMenuItemShowAllInfo.Name = "ToolStripMenuItemShowAllInfo";
             this.ToolStripMenuItemShowAllInfo.Size = new System.Drawing.Size(340, 22);
             this.ToolStripMenuItemShowAllInfo.Text = "Общая информация";
@@ -167,6 +177,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemOpenInfoWebPortal
             // 
+            this.ToolStripMenuItemOpenInfoWebPortal.Image = global::HostelStudent.Properties.Resources.students;
             this.ToolStripMenuItemOpenInfoWebPortal.Name = "ToolStripMenuItemOpenInfoWebPortal";
             this.ToolStripMenuItemOpenInfoWebPortal.Size = new System.Drawing.Size(340, 22);
             this.ToolStripMenuItemOpenInfoWebPortal.Text = "Просмотреть список студентов на Web-портале";
@@ -174,6 +185,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemOpenCardStudent
             // 
+            this.ToolStripMenuItemOpenCardStudent.Image = global::HostelStudent.Properties.Resources.cardStudent;
             this.ToolStripMenuItemOpenCardStudent.Name = "ToolStripMenuItemOpenCardStudent";
             this.ToolStripMenuItemOpenCardStudent.Size = new System.Drawing.Size(340, 22);
             this.ToolStripMenuItemOpenCardStudent.Text = "Открыть карточку студента на Web-портале";
@@ -189,12 +201,14 @@ namespace HostelStudent
             this.ToolStripMenuItemSaveAllCardStudentXLSX,
             this.ToolStripMenuItemSaveAllCardStudentPDF,
             this.ToolStripMenuItemSaveAllCardStudentDOCX});
+            this.ToolStripMenuItemExportCardStudent.Image = global::HostelStudent.Properties.Resources.export;
             this.ToolStripMenuItemExportCardStudent.Name = "ToolStripMenuItemExportCardStudent";
-            this.ToolStripMenuItemExportCardStudent.Size = new System.Drawing.Size(64, 20);
+            this.ToolStripMenuItemExportCardStudent.Size = new System.Drawing.Size(80, 20);
             this.ToolStripMenuItemExportCardStudent.Text = "Экспорт";
             // 
             // ToolStripMenuItemSaveCardStudentXLSX
             // 
+            this.ToolStripMenuItemSaveCardStudentXLSX.Image = global::HostelStudent.Properties.Resources.xlsx_file;
             this.ToolStripMenuItemSaveCardStudentXLSX.Name = "ToolStripMenuItemSaveCardStudentXLSX";
             this.ToolStripMenuItemSaveCardStudentXLSX.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveCardStudentXLSX.Text = "Сохранить карточку студента в формате XLSX";
@@ -202,6 +216,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSaveCardStudentPDF
             // 
+            this.ToolStripMenuItemSaveCardStudentPDF.Image = global::HostelStudent.Properties.Resources.pdf;
             this.ToolStripMenuItemSaveCardStudentPDF.Name = "ToolStripMenuItemSaveCardStudentPDF";
             this.ToolStripMenuItemSaveCardStudentPDF.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveCardStudentPDF.Text = "Сохранить карторку студента в формате PDF";
@@ -209,6 +224,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSaveCardStudentDOCX
             // 
+            this.ToolStripMenuItemSaveCardStudentDOCX.Image = global::HostelStudent.Properties.Resources.docx;
             this.ToolStripMenuItemSaveCardStudentDOCX.Name = "ToolStripMenuItemSaveCardStudentDOCX";
             this.ToolStripMenuItemSaveCardStudentDOCX.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveCardStudentDOCX.Text = "Сохранить карточку студента ф формате DOCX";
@@ -221,6 +237,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSaveAllCardStudentXLSX
             // 
+            this.ToolStripMenuItemSaveAllCardStudentXLSX.Image = global::HostelStudent.Properties.Resources.xlsx_file;
             this.ToolStripMenuItemSaveAllCardStudentXLSX.Name = "ToolStripMenuItemSaveAllCardStudentXLSX";
             this.ToolStripMenuItemSaveAllCardStudentXLSX.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveAllCardStudentXLSX.Text = "Массовый экспорт всех карточек студента в формате XLSX";
@@ -228,6 +245,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSaveAllCardStudentPDF
             // 
+            this.ToolStripMenuItemSaveAllCardStudentPDF.Image = global::HostelStudent.Properties.Resources.pdf;
             this.ToolStripMenuItemSaveAllCardStudentPDF.Name = "ToolStripMenuItemSaveAllCardStudentPDF";
             this.ToolStripMenuItemSaveAllCardStudentPDF.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveAllCardStudentPDF.Text = "Массовый экспорт всех карточек студента в формате PDF";
@@ -235,6 +253,7 @@ namespace HostelStudent
             // 
             // ToolStripMenuItemSaveAllCardStudentDOCX
             // 
+            this.ToolStripMenuItemSaveAllCardStudentDOCX.Image = global::HostelStudent.Properties.Resources.docx;
             this.ToolStripMenuItemSaveAllCardStudentDOCX.Name = "ToolStripMenuItemSaveAllCardStudentDOCX";
             this.ToolStripMenuItemSaveAllCardStudentDOCX.Size = new System.Drawing.Size(405, 22);
             this.ToolStripMenuItemSaveAllCardStudentDOCX.Text = "Массовый экспорт всех карточек студента в формате DOCX";
@@ -266,9 +285,12 @@ namespace HostelStudent
             // 
             // imageList1
             // 
-            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
-            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
             this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "a.ico");
+            this.imageList1.Images.SetKeyName(1, "b.ico");
+            this.imageList1.Images.SetKeyName(2, "c.ico");
+            this.imageList1.Images.SetKeyName(3, "Refresh.ico");
             // 
             // dataGridViewInfoStudent
             // 

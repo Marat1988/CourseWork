@@ -1,0 +1,12 @@
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\bin\Release\DownloadFilePortal.dll
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\bin\Release\DownloadFilePortal.pdb
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.csproj.AssemblyReference.cache
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.csproj.CoreCompileInputs.cache
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.dll
+C:\Users\Mss.TRIBRATA\source\repos\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.pdb
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\bin\Release\DownloadFilePortal.dll
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\bin\Release\DownloadFilePortal.pdb
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.dll
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.pdb
+C:\Users\HP\Desktop\DownloadFilePortal\DownloadFilePortal\obj\Release\DownloadFilePortal.csproj.AssemblyReference.cache
