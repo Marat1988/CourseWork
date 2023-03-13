@@ -1,0 +1,44 @@
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\HostelStudent.exe.config
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\HostelStudent.exe
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\HostelStudent.pdb
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\App.g.cs
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent_MarkupCompile.cache
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent_MarkupCompile.lref
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\MainWindow.baml
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.g.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.exe
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.pdb
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.MainForm.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\Dapper.dll
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\Dapper.xml
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.csproj.CopyComplete
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormAddEdtToRoomStudent.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormInformation.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormSendMail.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\bin\Debug\HostelStudent.exe.config
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\bin\Debug\HostelStudent.exe
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\bin\Debug\HostelStudent.pdb
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\bin\Debug\Dapper.dll
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\bin\Debug\Dapper.xml
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.csproj.AssemblyReference.cache
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\MainWindow.g.cs
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\App.g.cs
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent_MarkupCompile.cache
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent_MarkupCompile.lref
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\MainWindow.baml
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.g.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.FormAddEdtToRoomStudent.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.FormInformation.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.FormSendMail.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.MainForm.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.Properties.Resources.resources
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.csproj.GenerateResource.cache
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.csproj.CopyComplete
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.exe
+C:\Users\HP\Documents\GitHub\CourseWork\Курсовой проект CP .Net Framework\HostelStudent\obj\Debug\HostelStudent.pdb
