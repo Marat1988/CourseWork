@@ -38,6 +38,8 @@ namespace HostelStudent
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripMenuItemRefreshData = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripSeparator();
+            this.ToolStripMenuItemSendMail = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
             this.ToolStripMenuItemExit = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItemHelpInformation = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolStripMenuItemShowAllInfo = new System.Windows.Forms.ToolStripMenuItem();
@@ -56,8 +58,6 @@ namespace HostelStudent
             this.toolStripStatusLabelCountStudent = new System.Windows.Forms.ToolStripStatusLabel();
             this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.dataGridViewInfoStudent = new System.Windows.Forms.DataGridView();
-            this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripSeparator();
-            this.отправкаКарточкиСтудентаНаEmailToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewInfoStudent)).BeginInit();
@@ -84,7 +84,7 @@ namespace HostelStudent
             this.toolStripMenuItem1,
             this.ToolStripMenuItemRefreshData,
             this.toolStripMenuItem2,
-            this.отправкаКарточкиСтудентаНаEmailToolStripMenuItem,
+            this.ToolStripMenuItemSendMail,
             this.toolStripMenuItem4,
             this.ToolStripMenuItemExit});
             this.ToolStripMenuItemAction.Name = "ToolStripMenuItemAction";
@@ -94,45 +94,57 @@ namespace HostelStudent
             // ToolStripMenuItemAddStudentRoom
             // 
             this.ToolStripMenuItemAddStudentRoom.Name = "ToolStripMenuItemAddStudentRoom";
-            this.ToolStripMenuItemAddStudentRoom.Size = new System.Drawing.Size(244, 22);
+            this.ToolStripMenuItemAddStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemAddStudentRoom.Text = "Заселить студента в комнату";
             this.ToolStripMenuItemAddStudentRoom.Click += new System.EventHandler(this.ToolStripMenuItemAddStudentRoom_Click);
             // 
             // ToolStripMenuItemEditStudentRoom
             // 
             this.ToolStripMenuItemEditStudentRoom.Name = "ToolStripMenuItemEditStudentRoom";
-            this.ToolStripMenuItemEditStudentRoom.Size = new System.Drawing.Size(244, 22);
+            this.ToolStripMenuItemEditStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemEditStudentRoom.Text = "Изменить данные студента";
             this.ToolStripMenuItemEditStudentRoom.Click += new System.EventHandler(this.ToolStripMenuItemEditStudentRoom_Click);
             // 
             // ToolStripMenuItemDeleteStudentRoom
             // 
             this.ToolStripMenuItemDeleteStudentRoom.Name = "ToolStripMenuItemDeleteStudentRoom";
-            this.ToolStripMenuItemDeleteStudentRoom.Size = new System.Drawing.Size(244, 22);
+            this.ToolStripMenuItemDeleteStudentRoom.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemDeleteStudentRoom.Text = "Выселить студента из комнаты";
             this.ToolStripMenuItemDeleteStudentRoom.Click += new System.EventHandler(this.ToolStripMenuItemDeleteStudentRoom_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(241, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(280, 6);
             // 
             // ToolStripMenuItemRefreshData
             // 
             this.ToolStripMenuItemRefreshData.Name = "ToolStripMenuItemRefreshData";
-            this.ToolStripMenuItemRefreshData.Size = new System.Drawing.Size(244, 22);
+            this.ToolStripMenuItemRefreshData.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemRefreshData.Text = "Обновить данные";
             this.ToolStripMenuItemRefreshData.Click += new System.EventHandler(this.ToolStripMenuItemRefreshData_Click);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(241, 6);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(280, 6);
+            // 
+            // ToolStripMenuItemSendMail
+            // 
+            this.ToolStripMenuItemSendMail.Name = "ToolStripMenuItemSendMail";
+            this.ToolStripMenuItemSendMail.Size = new System.Drawing.Size(283, 22);
+            this.ToolStripMenuItemSendMail.Text = "Отправка карточки студента на e-mail";
+            this.ToolStripMenuItemSendMail.Click += new System.EventHandler(this.ToolStripMenuItemSendMail_Click);
+            // 
+            // toolStripMenuItem4
+            // 
+            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
+            this.toolStripMenuItem4.Size = new System.Drawing.Size(280, 6);
             // 
             // ToolStripMenuItemExit
             // 
             this.ToolStripMenuItemExit.Name = "ToolStripMenuItemExit";
-            this.ToolStripMenuItemExit.Size = new System.Drawing.Size(244, 22);
+            this.ToolStripMenuItemExit.Size = new System.Drawing.Size(283, 22);
             this.ToolStripMenuItemExit.Text = "Выход из программы";
             this.ToolStripMenuItemExit.Click += new System.EventHandler(this.ToolStripMenuItemExit_Click);
             // 
@@ -273,17 +285,6 @@ namespace HostelStudent
             this.dataGridViewInfoStudent.TabIndex = 2;
             this.dataGridViewInfoStudent.SelectionChanged += new System.EventHandler(this.dataGridViewInfoStudent_SelectionChanged);
             // 
-            // toolStripMenuItem4
-            // 
-            this.toolStripMenuItem4.Name = "toolStripMenuItem4";
-            this.toolStripMenuItem4.Size = new System.Drawing.Size(280, 6);
-            // 
-            // отправкаКарточкиСтудентаНаEmailToolStripMenuItem
-            // 
-            this.отправкаКарточкиСтудентаНаEmailToolStripMenuItem.Name = "отправкаКарточкиСтудентаНаEmailToolStripMenuItem";
-            this.отправкаКарточкиСтудентаНаEmailToolStripMenuItem.Size = new System.Drawing.Size(283, 22);
-            this.отправкаКарточкиСтудентаНаEmailToolStripMenuItem.Text = "Отправка карточки студента на e-mail";
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -335,7 +336,7 @@ namespace HostelStudent
         private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemExit;
         private System.Windows.Forms.DataGridView dataGridViewInfoStudent;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem3;
-        private System.Windows.Forms.ToolStripMenuItem отправкаКарточкиСтудентаНаEmailToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem ToolStripMenuItemSendMail;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem4;
     }
 }

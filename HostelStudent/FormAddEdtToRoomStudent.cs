@@ -12,7 +12,6 @@ namespace HostelStudent
 {
     public partial class FormAddEdtToRoomStudent : Form
     {
-
         private int action;
         private int studentId;
 
@@ -100,5 +99,9 @@ namespace HostelStudent
             return -1;
         }
 
+        private void FormAddEdtToRoomStudent_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

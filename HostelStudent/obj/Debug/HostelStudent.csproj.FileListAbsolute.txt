@@ -19,3 +19,4 @@ C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\bin\Debug\Dapper.xml
 C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.csproj.CopyComplete
 C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormAddEdtToRoomStudent.resources
 C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormInformation.resources
+C:\Users\HP\Documents\GitHub\CourseWork\HostelStudent\obj\Debug\HostelStudent.FormSendMail.resources

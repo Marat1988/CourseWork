@@ -143,5 +143,11 @@ namespace HostelStudent
                 }
             }       
         }
+
+        private void ToolStripMenuItemSendMail_Click(object sender, EventArgs e)
+        {
+            FormSendMail formSendMail = new FormSendMail(studentId);
+            formSendMail.ShowDialog();
+        }
     }
 }
