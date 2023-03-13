@@ -13,7 +13,7 @@ FROM 'C:\Export\DownloadFilePortal.dll'
 WITH PERMISSION_SET = UNSAFE
 GO
 
-CREATE FUNCTION [dbo].[CLR_DownloadFilePortal](@UrlPortal [NVARCHAR](MAX), @IndexDocumentFormat [INT], @Save–ath [nvarchar](50))
+CREATE FUNCTION [dbo].[CLR_DownloadFilePortal](@UrlPortal [NVARCHAR](MAX), @IndexDocumentFormat [INT], @Save–†ath [nvarchar](50))
 RETURNS [BIT] WITH EXECUTE AS CALLER
 AS
 EXTERNAL NAME [MyDownloadFilePortal].[DownloadFilePortal.DownloadFile].[ExportReportToFormat]
